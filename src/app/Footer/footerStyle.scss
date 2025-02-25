@@ -1,0 +1,141 @@
+.footer {
+    background: linear-gradient(100deg, #effcf5, #fbfbf3);
+
+    .footer_container {
+        max-width: 1550px;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 1px;
+
+        .footer_help_info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 25px;
+
+            .footer_logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    filter: grayscale(100%);
+                    filter: brightness(0);
+                    transform: scaleX(-1);
+                }
+
+                .footer_brand_name {
+                    font-weight: 700;
+                    font-size: 19px;
+                }
+            }
+
+            .footer_contact {
+                display: flex;
+                gap: 50px;
+
+                .contact,
+                .have_question {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .para_main_footer {
+                        font-size: 14px;
+                    }
+
+                    .para_footer {
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .footer_app_link {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .footer_para {
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: -5px;
+                color: #181f18;
+            }
+
+            .btn_primary {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                .btn {
+                    border: none;
+                    padding: 10px 15px;
+                    border-radius: 15px;
+                    background-color: #222222;
+
+                    .icon {
+                        color: white;
+                        font-size: 24px;
+                    }
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        color: white;
+                        gap: 4px;
+                        font-size: 12px;
+
+                        .subtext {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .displaybtn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                    }
+
+                }
+            }
+
+        }
+
+        .footer_list {
+            display: flex;
+            gap: 50px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #1d1d1d;
+        }
+
+        .footer_end {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            margin-top: 40px;
+
+            .footer_icon {
+                display: flex;
+                gap: 20px;
+                font-size: 20px;
+            }
+
+            .footer_last_para {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}

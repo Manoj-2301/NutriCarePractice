@@ -1,0 +1,63 @@
+.nav {
+    position: fixed;
+    background-color: transparent;
+    
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    &.scrolled {
+        background: linear-gradient(100deg, #effcf5, #fbfbf3);
+    }
+
+    .nav_list {
+        max-width: 1790px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+
+            img {
+                filter: grayscale(100%);
+                filter: brightness(0);
+                transform:scaleX(-1);
+            }
+
+            .nav_brand_name {
+                font-size: 24px;
+                font-weight: 800;
+                letter-spacing: 0.07rem;
+                color: #1b201c;
+            }
+        }
+
+        .nav_link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            font-size: 18px;
+            font-weight: 600;
+
+        }
+
+        .button {
+            background-color: #212121;
+            padding: 15px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 50px;
+            letter-spacing: 0.07rem;
+        }
+
+    }
+}

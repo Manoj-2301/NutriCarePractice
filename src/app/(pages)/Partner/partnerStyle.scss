@@ -1,0 +1,134 @@
+.trused_partner {
+    max-width: 1880px;
+    margin: 0 auto;
+
+    .trusted {
+        text-align: center;
+        margin-top: 120px;
+        .btn {
+            padding: 15px;
+            background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
+            border-radius: 50em;
+            border: 3px solid transparent;
+            box-shadow: 1px 4px 4px #f8efd9;
+            font-size: 16px;
+            // letter-spacing: 0.08rem;
+        }
+    }
+
+    .trusted_para {
+        text-align: center;
+        margin-top: 50px;
+
+        .trusted_para_one {
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .trusted_para_two {
+            font-size: 20px;
+            color: #71726f;
+            margin-bottom: 80px;
+        }
+    }
+
+    .trusted_cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1600px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 150px;
+        gap: 50px;
+        border-radius: 25px;
+        position: relative;
+        background: linear-gradient(100deg, #effcf5, #fbfbf3);
+
+        .trusted_card {
+            position: absolute;
+            left: 180px;
+            top: -60px;
+            background: white;
+            width: fit-content;
+            padding: 50px 20px;
+            border-radius: 25px;
+            border: 3px solid #71726f48;
+
+            .trusted_card_para {
+                font-size: 48px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_two {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_three {
+                color: #71726f;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+        .trusted_card_two {
+            position: absolute;
+            top: -60px;
+            background: white;
+            width: fit-content;
+            padding: 50px 20px;
+            border-radius: 25px;
+            border: 3px solid #71726f48;
+
+            .trusted_card_para {
+                font-size: 48px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_two {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_three {
+                color: #71726f;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+        .trusted_card_three {
+            position: absolute;
+            right: 180px;
+            top: -60px;
+            background: white;
+            width: fit-content;
+            padding: 50px 20px;
+            border-radius: 25px;
+            border: 3px solid #71726f48;
+
+            .trusted_card_para {
+                font-size: 48px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_two {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .trusted_card_para_three {
+                color: #71726f;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+}

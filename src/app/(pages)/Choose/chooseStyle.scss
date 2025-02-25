@@ -1,0 +1,249 @@
+.choose_wrapper {
+    max-width: 1790px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .choose_btn {
+        text-align: center;
+        margin-bottom: 30px;
+
+        .btn {
+            padding: 15px;
+            background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
+            border-radius: 50em;
+            border: 3px solid transparent;
+            box-shadow: 1px 4px 4px #f8efd9;
+            font-size: 16px;
+            // letter-spacing: 0.08rem;
+        }
+    }
+
+    .choose_para {
+        text-align: center;
+        margin-bottom: 100px;
+
+        .choose_main_para {
+            font-size: 48px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .choose_main_subpara {
+            font-size: 20px;
+            color: #71726f;
+        }
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-left: 50px;
+        margin-top: 40px;
+
+        .choose_card {
+            overflow: hidden;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            padding: 20px 20px 20px 30px;
+            padding-top: 50px;
+            gap: 70px;
+            width: fit-content;
+            height: 578px;
+            border-radius: 20px;
+            box-shadow: 0 0 2px black;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(216, 242, 187, 1) 100%);
+
+            .choose_card_para {
+                font-size: 26px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+
+            .choose_card_para_two {
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 50px;
+                color: #71726f;
+            }
+
+            .btn {
+                padding: 15px 25px;
+                border: none;
+                border-radius: 25px;
+                background-color: black;
+                color: white;
+                font-size: 16px;
+            }
+
+        }
+
+        .choose_card_two {
+            width: fit-content;
+            padding: 20px;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            border-radius: 25px;
+            box-shadow: 0 0 2px black;
+            background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #c7e8fa);
+
+            .choose_card_para {
+                font-size: 26px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            .choose_card_para_two {
+                font-size: 16px;
+                color: #71726f;
+                font-weight: 500;
+
+            }
+
+            .choose_card_img {
+                border-radius: 10px;
+                background-color: white;
+
+                img {
+                    border-radius: 25px;
+                    background-color: white;
+
+                }
+            }
+
+
+        }
+
+        .choose_card_three {
+            display: flex;
+            align-items: center;
+            width: 740px;
+            height: 260px;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 25px;
+            box-shadow: 0 0 2px black;
+            position: relative;
+            background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #f6e2c1);
+
+            .choose_card_para {
+                font-size: 26px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            .choose_card_para_two {
+                font-size: 16px;
+                font-weight: 500;
+                color: #71726f;
+            }
+            .choose_card_watchimg{
+                position: absolute;
+                top: -20px;
+                right: 20px;
+            }
+        }
+    }
+
+    .second_card {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 45px;
+
+        .card_second_row {
+            overflow: hidden;
+            width: 750px;
+            height: 340px;
+            border-radius: 25px;
+            padding: 20px;
+            padding-left: 30px;
+            box-shadow: 0 0 2px black;
+            position: relative;
+            background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #e2d3fa);
+        .second_card_para{
+            font-size: 26px;
+            margin-top: 15px;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        .second_card_subpara{
+            color: #71726f;
+            font-weight: 500;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .second_card_inner_card{
+            width: 350px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50% ,5%);
+            background-color: white;  
+            border: 3px solid #71726f4d;         
+            padding: 20px 30px;
+            border-radius: 20px;
+            .second_card_parasub{
+                font-weight: 500;
+                font-size: 20px;
+                color: #71726f;
+                margin-bottom: 10px;
+            }
+            .second_card_medicine{
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+        }
+        }
+
+        .card_second_row_two {
+            width: 760px;
+            height: 340px;
+            border-radius: 25px;
+            padding: 20px;
+            padding-left: 30px;
+            box-shadow: 0 0 2px black;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #fedbd7);
+            .second_card_para{
+                font-size: 26px;
+                margin-top: 15px;
+                font-weight: 500;
+                margin-bottom: 15px;
+            }
+            .second_card_subpara{
+                color: #71726f;
+                font-weight: 500;
+                margin-bottom: 20px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .second_card_inner_card{
+                width: 350px;
+                margin-bottom: 20px;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50% ,5%);
+                background-color: white;  
+                border: 3px solid #71726f4d;         
+                padding: 20px 30px;
+                border-radius: 20px;
+                .second_card_paraSub{
+                    font-size: 32px;
+                    font-weight: 500;
+                }
+                .second_card_consumed{
+                    font-size: 22px;
+                    color: #71726f;
+                    margin-top: 10px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
