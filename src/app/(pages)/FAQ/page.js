@@ -13,19 +13,19 @@ const page = () => {
   
     return (
         <div className='question_container'>
-            <div className='question_btn'>
+            <div className='question_btn' data-aos="fade-up">
                 <CustomButton
                     text={"FREQUENTLY AKSED QUESTIONS "}
                     style={{
-                        tb_button: "btn",
+                        tb_button: "btten",
                     }} />
             </div>
             <div className='question_para'>
-                <p className='question_para_main'>What Our Customers Are Saying</p>
-                <p className='question_para_sub'>Real Storeis,RealResults:Hear from those who've experienced the difference in their healthcare<br />Journey</p>
+                <p className='question_para_main' data-aos="fade-up">What Our Customers Are Saying</p>
+                <p className='question_para_sub' data-aos="fade-up">Real Storeis,RealResults:Hear from those who've experienced the difference in their healthcare<br />Journey</p>
             </div>
             <div className='question_card'>
-                <div className='card_border'>
+                <div className='card_border' data-aos="fade-up">
                     <div className='questions'>
                         <div className='questioncard'>
                             <p className='number'>01</p>
@@ -40,7 +40,7 @@ const page = () => {
                     </div>)}
                 </div>
             </div>
-            <div className='question_card'>
+            <div className='question_card' data-aos="fade-up">
                 <div className='card_border'>
                     <div className='questions'>
                         <div className='questioncard'>
@@ -53,7 +53,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='question_card'>
+            <div className='question_card' data-aos="fade-up">
                 <div className='card_border'>
                     <div className='questions'>
                         <div className='questioncard'>
@@ -66,7 +66,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='question_card'>
+            <div className='question_card' data-aos="fade-up">
                 <div className='card_border'>
                     <div className='questions'>
                         <div className='questioncard'>
@@ -79,7 +79,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='question_card'>
+            <div className='question_card' data-aos="fade-up">
                 <div className='card_border'>
                     <div className='questions'>
                         <div className='questioncard'>

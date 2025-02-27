@@ -5,23 +5,23 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div className='work'>
-      <div className='work_btn_top'>
+      <div className='work_btn_top'  data-aos="fade-up">
         <CustomButton
           text={"HOW IT WORK"}
           style={{
-            tb_button: "btn",
+            tb_button: "btun",
             tb_icon: "icon",
             btn_text: "text",
             displaybtn: "displaybtn",
             subtext: "subtext"
           }} />
       </div>
-      <div className='work_para'>
+      <div className='work_para' data-aos="fade-up">
         <p className='work_para_main'>How NutriCare Works</p>
         <p className='work_para_sub'>A simple 3-step journey to a healthier you.</p>
       </div>
-      <div className='cards'>
-        <div className='work_main_card'>
+      <div className='cards' >
+        <div className='work_main_card' data-aos="fade-up">
           <div className='work_card_inner_text'>
             <div className='circle'>
             </div>
@@ -40,15 +40,15 @@ const About = () => {
           </div>
         </div>
 
-        {/* 2nd card */}
-        <div className='work_main_card'>
+        {/* 2nd card */} 
+        <div className='work_main_card' data-aos="fade-up">
           <div className='work_card_inner_text'>
             <div className='img_card'>
               <Image
               src="/ca.png"
               alt=""
-              width={150}
-              height={140}/>
+              width={200}
+              height={150}/>
             </div>
             <div className='work_inner_card'>
               <p className='work_inner_card_para'>Great job! 5 Days Streak Achieved!</p>
@@ -65,7 +65,7 @@ const About = () => {
           </div>
         </div>
         {/* 3rd  */}
-        <div className='work_main_card'>
+        <div className='work_main_card' data-aos="fade-up" >
           <div className='work_card_inner_text'>
             <div className=''>
               <i className="fi fi-ss-bell"></i>

@@ -6,8 +6,8 @@
         text-align: center;
         margin-top: 130px;
 
-        .btn {
-            padding: 15px;
+        .btun {
+            padding:10px 15px;
             background: linear-gradient(white, white) padding-box,
                 linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
             border-radius: 50em;
@@ -42,13 +42,12 @@
     align-items: center;
     margin-bottom: 20px;
     margin-top: 70px;
-
     .work_main_card {
         width: 500px;
         height: 489px;
         border-radius: 25px;
         background: linear-gradient(to right bottom, #ddfaea, #fcfce3); 
-        border: 3px solid #71726f62;  
+        border: 2px solid #afafaf62;  
         .work_card_inner_text {
             height: 300px;
             padding: 20px;
@@ -61,7 +60,7 @@
                 background-color: white;
                 padding: 10px;
                 border-radius: 25px;
-                margin-top: -20px;
+                margin-top: -45px;
             }
             .circle {
                 width: 150px;
@@ -69,6 +68,8 @@
                 border: 10px solid orange;
                 border-radius: 100%;
                 position: relative;
+                opacity: 0.3;
+
 
                 &::after,
                 &::before {
@@ -116,7 +117,7 @@
         }
 
         .work_card_white_part {
-            margin-top: 20px;
+            margin-top: 23px;
             background-color: white;
             padding: 20px;             
             border-bottom-right-radius: 25px;
@@ -157,6 +158,10 @@
             }
         }
         .fi-ss-bell{
+            position: absolute;
+            top: 70px;
+            left:35%;
+            z-index: 1;
             font-size: 145px;
             color: lightgreen;
         }

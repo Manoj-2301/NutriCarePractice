@@ -8,7 +8,7 @@ import Image from 'next/image';
 const page = () => {
   return (
     <div className='main_Content'>
-      <div className='main_wrapper'>
+      <div data-aos="fade-up" className='main_wrapper'>
         <div className='main_btn'>
           <CustomButton
             text={"WHY CHOOSE HEALTH CARE"}
@@ -50,11 +50,11 @@ const page = () => {
           />
         </div>
         <div className='main_img_content'>
-          <Image
+          <Image className='mockup_img'
             src={"/mockup.png"}
             alt="image"
-            width={800}
-            height={1000}
+            sizes='100vw'
+            fill
           />
           <div className='main_img_card'>
             <div className='main_img_para'>
@@ -65,29 +65,29 @@ const page = () => {
                 <Image
                   src="/doc1.jpg"
                   alt='doc'
-                  width={70}
-                  height={70} />
+                  sizes='100vw'
+                  fill />
               </p>
               <p className='main_img_two'>
-                <Image
+                <Image className='img'
                   src="/doc3.jpg"
                   alt='doc'
-                  width={70}
-                  height={70} />
+                  sizes='100vw'
+                  fill />
               </p>
               <p className='main_img_three'>
                 <Image
                   src="/doc1.jpg"
                   alt='doc'
-                  width={70}
-                  height={70} />
+                  sizes='100vw'
+                  fill />
               </p>
               <p className='main_img_four'>
                 <Image
                   src="/doc3.jpg"
                   alt='doc'
-                  width={70}
-                  height={70} />
+                  sizes='100vw'
+                  fill />
               </p>
               <p className='main_img_doc_para'>+10</p>
             </div>
@@ -102,8 +102,8 @@ const page = () => {
               <Image
                 src="/month.png"
                 alt="alu"
-                width={350}
-                height={250}
+                sizes='100vw'
+                fill
               />
             </div>
           </div>
