@@ -76,7 +76,47 @@
 
     }
 }
-
+@media only screen and (max-width:768px) {
+    .nav {  
+        .nav_list {          
+    
+            .nav_item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 14px;
+    
+                img {
+                    filter: grayscale(100%);
+                    filter: brightness(0);
+                    transform:scaleX(-1);
+                    width: 20px;
+                    height: 20px;
+                }
+                
+                .nav_brand_name {
+                    font-size: 16px;
+                    font-weight: 800;
+                    letter-spacing: 0.07rem;
+                    color: #1b201c;
+                    
+                }
+            }
+            
+            .nav_link {
+                display: none;               
+    
+            }
+    
+            .button {             
+                padding: 10px 15px; 
+                font-size: 12px;              
+            }
+    
+        }
+    }
+     
+}
 @media only screen and (max-width:432px) {
     .nav {
         position: fixed;
