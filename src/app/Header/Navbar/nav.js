@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import CustomButton from '../Button'
+import CustomButton from '../../Component/Button'
 import Image from "next/image"
 import "./navStyle.scss"
 import Link from 'next/link'

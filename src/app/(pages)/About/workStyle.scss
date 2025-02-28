@@ -7,15 +7,15 @@
         margin-top: 130px;
 
         .btun {
-            padding:10px 15px;
+            padding: clamp(5px, 1vw,  10px) clamp(10px, 1vw ,15px);
             background: linear-gradient(white, white) padding-box,
-                linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
+                        linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
             border-radius: 50em;
             border: 3px solid transparent;
             box-shadow: 1px 4px 4px #f8efd9;
-            font-size: 16px;
-            // letter-spacing: 0.08rem;
+            font-size: clamp(14px , 1vw , 16px); 
         }
+        
     }
 
     .work_para {
@@ -23,26 +23,29 @@
         margin-top: 30px;
 
         .work_para_main {
-            font-size: 48px;
+            font-size: clamp(32px, 3vw, 48px);
             font-weight: 500;
             margin-bottom: 10px;
         }
 
         .work_para_sub {
             font-weight: 400;
-            font-size: 21px;
+            font-size: clamp(16px, 2vw, 21px);
             color: #71726f;
-            margin-bottom: 50px;
         }
     }
 .cards{
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: center;
     margin-bottom: 20px;
-    margin-top: 70px;
+    margin-top:clamp(30px, 4vw ,  70px);
+    padding: 10px;
     .work_main_card {
+        // margin: 0 auto;
         width: 500px;
         height: 489px;
         border-radius: 25px;
@@ -104,13 +107,13 @@
                 border-radius: 10px;
 
                 .work_inner_card_para {
-                    font-size: 16px;
+                    font-size: clamp(14px ,1vw, 16px);
                     font-weight: 500;
                 }
 
                 .work_inner_card_para_two {
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: clamp(12px,1vw,14px);
                     color: #71726f;
                 }
             }
@@ -124,13 +127,14 @@
             border-bottom-left-radius: 25px;
 
             .work_white_card_para {
-                font-size: 24px;
+                font-size:clamp(16px, 2vw , 24px);
                 font-weight: 500;
                 margin-bottom: 10px;   
             }
 
             .work_white_card_paraSub {
                 color: #71726f;
+                font-size: clamp(14px, 1vw, 16px);
                 font-weight: 500;
                 margin-bottom: 10px;
             }
@@ -143,7 +147,7 @@
 
                 .learn {
                     color: green;
-                    font-size: 16px;
+                    font-size:clamp(14px, 1vw , 16px);
                     font-weight: 500;
                     text-align: center;
                 }
@@ -153,14 +157,14 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 28px;
+                    font-size: clamp(16px, 2vw, 28px);
                 }
             }
         }
         .fi-ss-bell{
             position: absolute;
             top: 70px;
-            left:35%;
+            left:clamp(30%, 10vw , 35%);
             z-index: 1;
             font-size: 145px;
             color: lightgreen;

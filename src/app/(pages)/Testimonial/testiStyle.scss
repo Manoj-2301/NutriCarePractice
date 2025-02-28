@@ -2,7 +2,7 @@
     max-width: 1820px;
     margin: 0 auto;
     background: linear-gradient(to bottom, #effcf500, #f9f9f9);
-    margin-top: 176px;
+    margin-top: clamp(90px, 10vw, 176px);
     margin-bottom: 20px;
     border-radius: 25px;
     .testi_btn {
@@ -11,13 +11,13 @@
         align-items: center;
         text-align: center;
         .btin {
-            padding:  10px 15px;
+            padding: clamp(5px, 1vw,  10px) clamp(10px, 1vw ,15px);
             background: linear-gradient(white, white) padding-box,
                 linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
             border-radius: 50em;
             border: 3px solid transparent;
             box-shadow: 1px 4px 4px #f8efd9;
-            font-size: 16px;
+            font-size: clamp(14px, 1vw, 16px);
             // letter-spacing: 0.08rem;
         }
 
@@ -32,15 +32,16 @@
         text-align: center;
         margin-top: 30px;
         .testi_para_main{
-            font-size: 48px;
+            font-size: clamp(30px, 3vw, 48px);
             font-weight: 500;
         }
         .testi_para_sub{
-            font-size: 20px;
+            font-size: clamp(14px, 2vw , 20px);
             // font-weight: 500;
             margin-top: 10px;
             color: #71726f;
-            line-height: 2.5rem;
+            padding: 3px;
+            line-height: clamp(1.5rem, 3vw ,2.5rem);
         }
     }
     .person_says{
@@ -48,9 +49,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 70px;
-        font-size: 45px;
+        margin-top:clamp(30px, 3vw ,  70px);
+        font-size: clamp(30px, 3vw , 45px);
         font-weight: 500;
+        padding: 0 10px;
         .nutri{
             font-style: italic;
             color: black;
@@ -74,20 +76,21 @@
             margin-bottom: 20px;
         }
         .person_name{
-            font-size: 24px;
+            font-size: clamp(16px , 2vw, 24px);
             font-weight: 500;
         }
         .person_desig{
             color: #71726f;
             margin-top: 7px;
             font-weight: 500;
+            font-size: clamp(14px, 1vw, 16px);
         }
         .three_bars{
             display: flex;
             justify-content: center;
             align-items: center;
             gap:10px;
-            margin-top: 40px;
+            margin-top: clamp(20px, 3vw , 40px);
             margin-bottom: 100px;
             .bar_one,.bar_two,.bar_three{
                 width: 50px;
