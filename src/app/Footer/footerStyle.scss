@@ -115,7 +115,7 @@
         .footer_list {
             display: flex;
             flex-wrap: wrap;
-            gap: clamp(20px, 3vw, 50px);
+            gap: clamp(10px, 3vw, 50px);
             margin-top: 30px;
             margin-bottom: 30px;
             font-size: clamp(14px, 1vw, 16px);
@@ -148,3 +148,12 @@
     }
 }
 
+// @media only screen and (max-width:432px ) {
+//     .footer{
+//         .footer_container{
+//             .footer_list{
+//                 display: none;
+//             }
+//         }
+//     }
+// }
