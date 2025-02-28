@@ -6,13 +6,13 @@
         text-align: center;
         margin-top: 120px;
         .buttn {
-            padding: 10px 15px;
+            padding: clamp(5px, 1vw,  10px) clamp(10px, 1vw ,15px);
             background: linear-gradient(white, white) padding-box,
                 linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
             border-radius: 50em;
             border: 3px solid transparent;
             box-shadow: 1px 4px 4px #f8efd9;
-            font-size: 16px;
+            font-size: clamp(14px , 1vw , 16px);
             // letter-spacing: 0.08rem;
         }
     }
@@ -23,12 +23,12 @@
 
         .trusted_para_one {
             font-weight: 500;
-            font-size: 48px;
+            font-size: clamp(32px, 3vw, 48px);
             margin-bottom: 20px;
         }
 
         .trusted_para_two {
-            font-size: 20px;
+            font-size: clamp(16px, 2vw, 20px);
             color: #71726f;
             margin-bottom: 80px;
         }
