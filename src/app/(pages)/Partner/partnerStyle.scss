@@ -37,6 +37,7 @@
     .trusted_cards {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         width: 1400px;
         height: 300px;
@@ -46,7 +47,6 @@
         border-radius: 25px;
         position: relative;
         background: linear-gradient(100deg, #effcf5, #fbfbf3);
-
         .trusted_card {
             position: absolute;
             left: 0;
