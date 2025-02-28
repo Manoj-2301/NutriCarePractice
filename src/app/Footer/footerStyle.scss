@@ -1,19 +1,20 @@
 .footer {
-    background: linear-gradient(100deg, #effcf5, #fbfbf3);
-
+    background: linear-gradient(100deg, #effcf5, #fbfbf3);  
+    
     .footer_container {
         max-width: 1550px;
         margin: 0 auto;
         margin-top: 100px;
         padding: 1px;
-
         .footer_help_info {
             display: flex;
+            gap: 20px;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
             margin-top: 30px;
             margin-bottom: 25px;
-
+            padding: 10px;
             .footer_logo {
                 display: flex;
                 justify-content: center;
@@ -34,7 +35,8 @@
 
             .footer_contact {
                 display: flex;
-                gap: 50px;
+                flex-wrap: wrap;
+                gap:clamp(20px, 10vw,  50px);
 
                 .contact,
                 .have_question {
@@ -58,9 +60,9 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 20px;
-
+            padding: 10px;
             .footer_para {
-                font-size: 16px;
+                font-size: clamp(14px , 1vw , 16px);
                 font-weight: 500;
                 margin-top: -5px;
                 color: #181f18;
@@ -69,12 +71,13 @@
             .btn_primary {
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
                 align-items: center;
                 gap: 20px;
 
                 .btn {
                     border: none;
-                    padding: 10px 15px;
+                    padding: clamp(5px , 1vw , 10px) clamp(10px , 1vw ,15px);
                     border-radius: 15px;
                     background-color: #222222;
 
@@ -90,10 +93,10 @@
                         justify-content: flex-start;
                         color: white;
                         gap: 4px;
-                        font-size: 12px;
+                        font-size: clamp(10px, 1vw, 12px);
 
                         .subtext {
-                            font-size: 16px;
+                            font-size: clamp(14px, 1vw , 16px);
                         }
                     }
 

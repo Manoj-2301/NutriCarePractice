@@ -7,8 +7,8 @@ import './footerStyle.scss'
 
 const page = () => {
     return (
-        <div className='footer'>
-            <div className='footer_container'>
+        <div className='footer' >
+            <div className='footer_container' >
                 <div className='footer_help_info'>
                     <div className='footer_logo'>
                         <Image
@@ -18,7 +18,7 @@ const page = () => {
                             height={40} />
                         <p className='footer_brand_name'>NutriCare</p>
                     </div>
-                    <div className='footer_contact'>
+                    <div className='footer_contact' >
                         <div className='contact'>
                             <p className='para_main_footer'>Contact us at</p>
                             <p className='para_footer'>Support@nutricare.com</p>
@@ -29,7 +29,7 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className='footer_app_link'>
+                <div className='footer_app_link '>
                     <div className='footer_para'>
                         <p>Caring for you,Anytime & Anywhere</p>
                     </div>
@@ -60,7 +60,7 @@ const page = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='footer_list'>
+                <div className='footer_list' >
                     <p>About Us</p>
                     <p>Our Services</p>
                     <p>Blog & Health Tips</p>

@@ -36,18 +36,17 @@
     }
 .cards{
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    align-items: center;
     margin-bottom: 20px;
     margin-top:clamp(30px, 4vw ,  70px);
     padding: 10px;
     .work_main_card {
         // margin: 0 auto;
         width: 500px;
-        height: 489px;
+        height: fit-content;
         border-radius: 25px;
         background: linear-gradient(to right bottom, #ddfaea, #fcfce3); 
         border: 2px solid #afafaf62;  
