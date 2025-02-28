@@ -3,7 +3,7 @@
     margin: 0 auto;
     margin-top: 5px;
     background: linear-gradient(100deg, #effcf5, #fbfbf3);
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
     height: 70vw;
@@ -127,7 +127,8 @@
                         // background-color: #222222;
                         width: 70px;
                         height: 70px;
-                        border-radius: 100%;                       
+                        border-radius: 100%;  
+                        position: relative;                     
                         img {
                             object-fit: cover;
                             object-position: center;
@@ -221,7 +222,7 @@
                 .second_img {
                     background-color: white;
                     position: absolute;
-                    left: -650px;
+                    left: -570px;
                     border-radius: 25px;
                     box-shadow: 0 0 5px rgba(0, 0, 0, 0.315);
                     width: 350px;
@@ -262,7 +263,7 @@
                     border-radius: 50em;
                     border: 3px solid transparent;
                     box-shadow: 1px 4px 4px #f8efd9;
-                    font-size: 396px;
+                    font-size: 16px;
                     font-weight: 500;
                     letter-spacing: 0.08rem;
                 }

@@ -45,7 +45,7 @@
         .choose_card {
             overflow: hidden;
             display: flex;
-            // justify-content: center;
+            justify-content: center;
             align-items: center;
             padding: 20px 20px 20px 30px;
             padding-top: 50px;
@@ -55,7 +55,7 @@
             border-radius: 20px;
             box-shadow: 0 0 2px black;
             background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(216, 242, 187, 1) 100%);
-            
+
 
             .choose_card_para {
                 font-size: 26px;
@@ -77,6 +77,16 @@
                 background-color: black;
                 color: white;
                 font-size: 16px;
+            }
+
+            .choose_card_img {
+                position: relative;
+                width: 350px;
+                height: 550px;
+                img{
+                    position: absolute;
+                    object-fit: contain;
+                }
             }
 
         }
@@ -108,11 +118,13 @@
             .choose_card_img {
                 border-radius: 10px;
                 background-color: white;
-
+                width: 300px;
+                height: 200px;
+                position: relative;
                 img {
                     border-radius: 25px;
                     background-color: white;
-
+                    object-fit: contain;
                 }
             }
 
@@ -122,9 +134,10 @@
         .choose_card_three {
             display: flex;
             align-items: center;
-            width: 740px;
+            width: fit-content;
             height: 260px;
             padding: 20px;
+            padding-right: 300px;
             margin-top: 30px;
             border-radius: 25px;
             box-shadow: 0 0 2px black;
@@ -147,6 +160,8 @@
                 position: absolute;
                 top: -20px;
                 right: 20px;
+                width: 310px;
+                height: 310px;
             }
         }
     }
@@ -266,35 +281,35 @@
         max-width: 432px;
         margin: 0 auto;
         margin-top: 100px;
-    
+
         .choose_btn {
             text-align: center;
             margin-bottom: 30px;
-    
+
             .butn {
-                padding: 8px 10px;                
+                padding: 8px 10px;
                 font-size: 12px;
                 // letter-spacing: 0.08rem;
             }
         }
-    
+
         .choose_para {
             text-align: center;
             margin-bottom: 100px;
-    
+
             .choose_main_para {
                 font-size: 35px;
                 font-weight: 500;
                 margin-bottom: 20px;
             }
-    
+
             .choose_main_subpara {
                 font-size: 14px;
-                padding:0px  5px;
+                padding: 0px 5px;
                 color: #71726f;
             }
         }
-    
+
         .card {
             display: grid;
             grid-template-columns: auto;
@@ -302,30 +317,30 @@
             gap: 30px;
             margin-left: 0px;
             margin-top: -40px;
-    
+
             .choose_card {
                 overflow: hidden;
                 display: flex;
                 align-items: center;
                 padding: 5px 10px;
-                padding-top: 20px;               
+                padding-top: 20px;
                 width: 350px;
                 height: 200px;
                 margin: 0 auto;
-                 
+
                 .choose_card_para {
                     font-size: 14px;
                     font-weight: 500;
                     margin-bottom: 10px;
                 }
-    
+
                 .choose_card_para_two {
                     font-size: 12px;
                     font-weight: 500;
                     margin-bottom: 10px;
                     color: #71726f;
                 }
-    
+
                 .btn {
                     padding: 10px 15px;
                     border: none;
@@ -335,20 +350,22 @@
                     color: white;
                     font-size: 12px;
                 }
-                .choose_card_img{
+
+                .choose_card_img {
                     position: relative;
                     width: 100px;
-                    height: 160px;                    
+                    height: 160px;
                     left: -20px;
                     top: 20px;
-                    img{
+
+                    img {
                         position: absolute;
 
                     }
                 }
-    
+
             }
-    
+
             .choose_card_two {
                 width: 350px;
                 padding: 10px;
@@ -356,141 +373,117 @@
                 display: flex;
                 align-items: center;
                 gap: 0px;
-                margin: 0   auto;
+                margin: 0 auto;
                 border-radius: 25px;
                 box-shadow: 0 0 2px black;
                 background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #c7e8fa);
-    
+
                 .choose_card_para {
                     font-size: 14px;
                     font-weight: 500;
                     margin-bottom: 10px;
                 }
-    
+
                 .choose_card_para_two {
                     width: 190px;
                     font-size: 12px;
                     color: #71726f;
                     font-weight: 500;
-    
+
                 }
-    
+
                 .choose_card_img {
                     border-radius: 10px;
                     background-color: white;
                     width: 200px;
-                    height:100px;
+                    height: 100px;
                     position: relative;
                     left: -1px;
+
                     img {
                         border-radius: 25px;
                         background-color: white;
                         object-fit: cover;
-    
+
                     }
                 }
-    
-    
+
+
             }
-    
+
             .choose_card_three {
-                display: flex;
-                align-items: center;
                 width: 350px;
                 height: 160px;
                 padding: 20px;
-                margin-top: 30px;
-                border-radius: 25px;
-                box-shadow: 0 0 2px black;
                 position: relative;
-                background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #f6e2c1);
-    
+
                 .choose_card_para {
                     font-size: 14px;
-                    font-weight: 500;
-                    margin-bottom: 20px;
+                    margin-bottom: 5px;
                 }
-    
+
                 .choose_card_para_two {
                     font-size: 12px;
-                    font-weight: 500;
-                    color: #71726f;
                     width: 200px;
                 }
-    
+
                 .choose_card_watchimg {
                     position: absolute;
                     top: -10px;
                     right: -2px;
                     width: 150px;
                     height: 190px;
-                    img{
+
+                    img {
                         object-fit: cover;
                     }
                 }
             }
         }
-    
+
         .second_card {
-            display: flex;
+            display: grid;
+            grid-template-columns: auto;
             gap: 30px;
-            justify-content: center;
             margin-top: 20px;
-            margin-left: 45px;
-    
+            margin-left: 0px;
+
             .card_second_row {
-                overflow: hidden;
-                width: 745px;
-                height: 340px;
-                border-radius: 25px;
-                padding: 20px;
-                padding-left: 30px;
-                box-shadow: 0 0 2px black;
-                margin-left: 14px;
-                position: relative;
-                background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #e2d3fa);
-    
+                width: 350px;
+                height: 270px;
+                padding: 10px;
+                padding-left: 30px;               
+                margin: 0 auto;
+                
                 .second_card_para {
-                    font-size: 26px;
+                    font-size: 14px;
                     margin-top: 15px;
                     font-weight: 500;
-                    margin-bottom: 15px;
+                    margin-bottom: 10px;
                 }
-    
+
                 .second_card_subpara {
-                    color: #71726f;
-                    font-weight: 500;
-                    margin-bottom: 30px;
-                    font-size: 16px;
+                    margin-bottom: 20px;
+                    font-size: 14px;
                 }
-    
+
                 .second_card_inner_card {
-                    width: 350px;
-                    position: absolute;
-                    left: 50%;
-                    transform: translate(-50%, 5%);
-                    background-color: white;
-                    border: 3px solid #71726f4d;
-                    padding: 20px 30px;
-                    border-radius: 20px;
-    
-                    .second_card_parasub {
-                        font-weight: 500;
-                        font-size: 20px;
-                        color: #71726f;
-                        margin-bottom: 10px;
-                    }
-    
-                    .second_card_medicine {
-                        font-size: 18px;
+                    width: 250px;                                    
+                    padding: 10px 20px;
+                    .second_card_parasub {                        
+                        font-size: 14px;
                         margin-bottom: 5px;
+                    }
+
+                    .second_card_medicine {
+                        font-size: 14px;
                     }
                 }
             }
-    
+
             .card_second_row_two {
-                width: 745px;
-                height: 340px;
+                width: 350px;
+                height: 270px;
                 border-radius: 25px;
                 padding: 20px;
                 padding-left: 30px;
@@ -498,47 +491,34 @@
                 position: relative;
                 overflow: hidden;
                 background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #fedbd7);
-    
+
                 .second_card_para {
-                    font-size: 26px;
-                    margin-top: 15px;
-                    font-weight: 500;
-                    margin-bottom: 15px;
-                }
-    
-                .second_card_subpara {
-                    color: #71726f;
-                    font-weight: 500;
-                    margin-bottom: 20px;
                     font-size: 16px;
-                    line-height: 24px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
                 }
-    
-                .second_card_inner_card {
-                    width: 350px;
+
+                .second_card_subpara {                    
                     margin-bottom: 20px;
-                    position: absolute;
-                    left: 50%;
-                    transform: translate(-50%, 5%);
-                    background-color: white;
-                    border: 3px solid #71726f4d;
-                    padding: 20px 30px;
-                    border-radius: 20px;
-    
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+
+                .second_card_inner_card {
+                    width: 250px;
+                    margin-bottom: 10px;                    
+                    padding: 10px 20px;                    
                     .second_card_paraSub {
-                        font-size: 32px;
+                        font-size: 16px;
                         font-weight: 500;
                     }
-    
                     .second_card_consumed {
-                        font-size: 22px;
-                        color: #71726f;
-                        margin-top: 10px;
-                        font-weight: 500;
+                        font-size: 12px;
+                        margin-top: 5px;                        
                     }
                 }
             }
         }
     }
-    
+
 }
