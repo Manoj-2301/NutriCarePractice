@@ -33,9 +33,11 @@ const page = () => {
                             <Image
                                 src="/videocall.png"
                                 alt='doc'
-                                width={350}
-                                height={550}
+                                sizes='100vw'
+                                fill
                             />
+                            {/* width={350}
+                            height={550} */}
                         </div>
                     </div>
                     <div>
