@@ -56,7 +56,7 @@ const page = () => {
                         <div className='have_question'>
                             <p className='para_main_footer'>Have a question?</p>
                             <p className='para_footer'>123-987-456</p>
-                        </div>
+                         </div>
                     </div>
                 </div>
                 <div className='footer_app_link '>
