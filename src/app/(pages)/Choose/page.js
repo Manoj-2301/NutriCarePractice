@@ -6,7 +6,7 @@ import Image from "next/image"
 const page = () => {
     return (
         <div className='choose_wrapper'>
-            <div className='choose_btn'  data-aos="fade-up">
+            <div className='choose_btn' data-aos="fade-up">
                 <CustomButton
                     text={"WHY CHOOSE HEALTH CARE"}
                     style={{
@@ -14,8 +14,8 @@ const page = () => {
                     }} />
             </div>
             <div className='choose_para'>
-                <p className='choose_main_para'  data-aos="fade-up">Empowering Your Health Journey</p>
-                <p className='choose_main_subpara'  data-aos="fade-up">Discover a holistic health management system designed for your lifestyle.Explore five key feature that <br />make staying healthy easier and smart</p>
+                <p className='choose_main_para' data-aos="fade-up">Empowering Your Health Journey</p>
+                <p className='choose_main_subpara' data-aos="fade-up">Discover a holistic health management system designed for your lifestyle.Explore five key feature that <br />make staying healthy easier and smart</p>
             </div>
             <div>
                 <div className='card'>
@@ -41,7 +41,7 @@ const page = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='choose_card_two'  data-aos="fade-up-left">
+                        <div className='choose_card_two' data-aos="fade-up-left">
                             <div>
                                 <p className='choose_card_para'>Insightful Health <br />Summaries</p>
                                 <p className='choose_card_para_two'>Access detailed report summarizing your<br /> including activity trends,vital<br />statistics, and personalized <br />recommendations for better health</p>
@@ -50,12 +50,14 @@ const page = () => {
                                 <Image
                                     src={"/chart.png"}
                                     alt='chart'
-                                    width={350}
-                                    height={200}
+                                    sizes='100vw'
+                                    fill
+                                // width={350}
+                                // height={200}
                                 />
                             </div>
                         </div>
-                        <div className='choose_card_three'  data-aos="fade-up-left">
+                        <div className='choose_card_three' data-aos="fade-up-left">
                             <div>
                                 <p className='choose_card_para'>Track Your Vital Signs</p>
                                 <p className='choose_card_para_two'>Seamlessely connect with your smartwatch to<br />monitor heart rate, steps, sleep patterns, and more.<br />Stay informed about your health at a glance<br /></p>

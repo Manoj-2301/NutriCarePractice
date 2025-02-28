@@ -350,24 +350,26 @@
             }
     
             .choose_card_two {
-                width: fit-content;
-                padding: 20px;
-                height: 280px;
+                width: 350px;
+                padding: 10px;
+                height: 200px;
                 display: flex;
                 align-items: center;
-                gap: 50px;
+                gap: 0px;
+                margin: 0   auto;
                 border-radius: 25px;
                 box-shadow: 0 0 2px black;
                 background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #c7e8fa);
     
                 .choose_card_para {
-                    font-size: 26px;
+                    font-size: 14px;
                     font-weight: 500;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                 }
     
                 .choose_card_para_two {
-                    font-size: 16px;
+                    width: 190px;
+                    font-size: 12px;
                     color: #71726f;
                     font-weight: 500;
     
@@ -376,10 +378,14 @@
                 .choose_card_img {
                     border-radius: 10px;
                     background-color: white;
-    
+                    width: 200px;
+                    height:100px;
+                    position: relative;
+                    left: -1px;
                     img {
                         border-radius: 25px;
                         background-color: white;
+                        object-fit: cover;
     
                     }
                 }
