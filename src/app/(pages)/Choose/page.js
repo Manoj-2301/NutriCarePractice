@@ -66,8 +66,11 @@ const page = () => {
                                 <Image
                                     src={"/smartwatch.png"}
                                     alt='watch'
-                                    width={310}
-                                    height={310} />
+                                    fill
+                                    sizes='100vw'
+                                    // width={310}
+                                    // height={310}
+                                     />
                             </div>
                         </div>
 

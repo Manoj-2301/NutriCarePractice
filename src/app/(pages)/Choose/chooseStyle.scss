@@ -396,8 +396,8 @@
             .choose_card_three {
                 display: flex;
                 align-items: center;
-                width: 740px;
-                height: 260px;
+                width: 350px;
+                height: 160px;
                 padding: 20px;
                 margin-top: 30px;
                 border-radius: 25px;
@@ -406,21 +406,27 @@
                 background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #f6e2c1);
     
                 .choose_card_para {
-                    font-size: 26px;
+                    font-size: 14px;
                     font-weight: 500;
                     margin-bottom: 20px;
                 }
     
                 .choose_card_para_two {
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: 500;
                     color: #71726f;
+                    width: 200px;
                 }
     
                 .choose_card_watchimg {
                     position: absolute;
-                    top: -20px;
-                    right: 20px;
+                    top: -10px;
+                    right: -2px;
+                    width: 150px;
+                    height: 190px;
+                    img{
+                        object-fit: cover;
+                    }
                 }
             }
         }
