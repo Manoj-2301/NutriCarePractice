@@ -2,6 +2,7 @@ import React from 'react'
 import CustomButton from '../../Component/Button'
 import './chooseStyle.scss'
 import Image from "next/image"
+import Card from '../../Component/Card'
 
 const page = () => {
     return (
@@ -18,64 +19,50 @@ const page = () => {
                 <p className='choose_main_subpara' data-aos="fade-up">Discover a holistic health management system designed for your lifestyle.Explore five key feature that <br />make staying healthy easier and smart</p>
             </div>
             <div>
-                <div className='card'>
-                    <div className='choose_card' data-aos="fade-up-right">
+                <div >
+                    <div className="card">
+                        <Card
+                            title="Expert Advice Anytime"
+                            description="Get professional health advice through chat or video call. Connect with certified doctors for personalized guidance and care."
+                            imageSrc="/videocall.png"
+                            buttonText="Learn more"
+                            aosDirection="fade-up-right"
+                            style={{
+                                choose_card: "choose_card",
+                                choose_card_para: "choose_card_para",
+                                choose_card_para_two: "choose_card_para_two",
+                                choose_card_img: "choose_card_img"
+                            }}
+                        />
                         <div>
-                            <p className='choose_card_para'>Expert Advice Anytime</p>
-                            <p className='choose_card_para_two'>Get professional health advice<br /> through chat or video call.Connect<br /> with certified doctors for <br />personalized guidance and care</p>
-                            <CustomButton
-                                text={"Learn more"}
-                                style={{
-                                    tb_button: "btn"
-                                }} />
-                        </div>
-                        <div className='choose_card_img'>
-                            <Image
-                                src="/videocall.png"
-                                alt='doc'
-                                sizes='100vw'
-                                fill
-                            />
-                            {/* width={350}
-                            height={550} */}
+                        <Card
+                            title="Insightful Health Summaries"
+                            description="Access detailed report summarizing your activity trends, vital statistics, and personalized recommendations for better health."
+                            imageSrc="/chart.png"
+                            aosDirection="fade-up-left"
+                            style={{
+                                choose_card: "choose_card_two",
+                                choose_card_para: "choose_card_para",
+                                choose_card_para_two: "choose_card_para_two",
+                                choose_card_img: "choose_card_img"
+                            }}
+                        />  
+                        <Card
+                            title="Track Your Vital Signs"
+                            description="Seamlessly connect with your smartwatch to monitor heart rate, steps, sleep patterns, and more. Stay informed about your health at a glance."
+                            imageSrc="/smartwatch.png"
+                            aosDirection="fade-up-left"
+                            style={{
+                                choose_card: "choose_card_three",
+                                choose_card_para: "choose_card_para",
+                                choose_card_para_two: "choose_card_para_two",
+                                choose_card_img: "choose_card_watchimg",
+                                img:"img"
+                            }}
+                        />  
                         </div>
                     </div>
-                    <div>
-                        <div className='choose_card_two' data-aos="fade-up-left">
-                            <div>
-                                <p className='choose_card_para'>Insightful Health <br />Summaries</p>
-                                <p className='choose_card_para_two'>Access detailed report summarizing your<br /> including activity trends,vital<br />statistics, and personalized <br />recommendations for better health</p>
-                            </div>
-                            <div className='choose_card_img'>
-                                <Image
-                                    src={"/chart.png"}
-                                    alt='chart'
-                                    sizes='100vw'
-                                    fill
-                                // width={350}
-                                // height={200}
-                                />
-                            </div>
-                        </div>
-                        <div className='choose_card_three' data-aos="fade-up-left">
-                            <div>
-                                <p className='choose_card_para'>Track Your Vital Signs</p>
-                                <p className='choose_card_para_two'>Seamlessely connect with your smartwatch to<br />monitor heart rate, steps, sleep patterns, and more.<br />Stay informed about your health at a glance<br /></p>
-                            </div>
-                            <div className='choose_card_watchimg'>
-                                <Image
-                                    src={"/smartwatch.png"}
-                                    alt='watch'
-                                    fill
-                                    sizes='100vw'
-                                    // width={310}
-                                    // height={310}
-                                     />
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                </div>                
                 <div className='second_card'>
                     <div className='card_second_row' data-aos="fade-up-right">
                         <div>
