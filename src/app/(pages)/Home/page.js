@@ -8,12 +8,12 @@ import Image from 'next/image';
 const page = () => {
   return (
     <div className='main_Content'>
-      <div data-aos="fade-up" className='main_wrapper'>
+      <div data-aos="fade-up" className='main_wrapper' >
         <div className='main_btn'>
           <CustomButton
             text={"WHY CHOOSE HEALTH CARE"}
             style={{
-              tb_button: "btn",
+              tb_button: "btan",
               tb_icon: "icon",
               btn_text: "text",
               displaybtn: "displaybtn",

@@ -5,27 +5,25 @@
     background: linear-gradient(100deg, #effcf5, #fbfbf3);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
-    height: 70vw;
+    height: 70vw ;
     width: 100dvw;
     border-radius: 20px;
     padding: 1px;
-
     .main_wrapper {
         margin-top: 160px;
         text-align: center;
 
         .main_btn {
-            .btn {
-                padding: 10px 15px;
+            .btan {
+                padding: clamp(5px, 1vw,  10px) clamp(10px, 1vw ,15px);
                 background: linear-gradient(white, white) padding-box,
                     linear-gradient(to right, #c1e3d3, #ede5d1) border-box;
                 border-radius: 50em;
                 border: 3px solid transparent;
                 box-shadow: 1px 4px 4px #f8efd9;
-                font-size: 16px;
-                font-weight: 500;
-                // letter-spacing: 0.08rem;
+                font-size: clamp(14px , 1vw , 16px);
             }
         }
 
@@ -33,14 +31,14 @@
             margin-top: 50px;
 
             .main_para_one {
-                font-size: 100px;
+                font-size:clamp(42px ,10vw,  100px);
                 font-weight: 500;
                 color: #222222;
                 margin-bottom: 15px;
             }
 
             p {
-                font-size: 26px;
+                font-size: clamp(16px , 2vw , 26px);
                 color: #4f544e;
                 margin-bottom: 30px;
             }
@@ -246,8 +244,8 @@
         background-size: auto;
         background-position: center;
         overflow: hidden;
-        height: 70vw;
-        width: 100dvw;
+        height: 80vw;
+        width: 100vw;
         border-radius: 20px;
         padding: 1px;
 
@@ -273,14 +271,14 @@
                 margin-top: 50px;
 
                 .main_para_one {
-                    font-size: 80px;
+                    // font-size: 80px;
                     font-weight: 500;
                     color: #222222;
                     margin-bottom: 15px;
                 }
 
                 p {
-                    font-size: 22px;
+                    // font-size: 22px;
                     color: #4f544e;
                     margin-bottom: 30px;
                 }
@@ -466,11 +464,6 @@
     .main_Content {
         max-width: 432px;
         margin: 0 auto;
-        margin-top: 5px;
-        background: linear-gradient(100deg, #effcf5, #fbfbf3);
-        background-size: cover;
-        background-position: center;
-        overflow: hidden;
         height: 53em;
         width: 100%;
         border-radius: 20px;

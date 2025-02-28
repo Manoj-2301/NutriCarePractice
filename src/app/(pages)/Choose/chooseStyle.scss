@@ -30,7 +30,8 @@
         }
 
         .choose_main_subpara {
-            font-size: 20px;
+            font-size: clamp(14px, 1vw, 20px);
+            padding: 10px;
             color: #71726f;
         }
     }
@@ -40,7 +41,7 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
-        margin-left: 50px;
+        margin-left: clamp(0px, 2vw, 40px);
         margin-top: 40px;
 
         .choose_card {
@@ -48,41 +49,41 @@
             justify-content: center;
             align-items: center;
             background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(216, 242, 187, 1) 100%);
-            width: fit-content;
-            height: 570px;
+            width: clamp(350px, 79vw, 745px);
+            height: clamp(200px, 33vw, 570px);
             padding: 50px 60px 20px 40px;
             overflow: hidden;
             box-shadow: 0 0 2px black;
             border-radius: 20px;
-            gap: 50px;
+            gap: clamp(10px, 5vw, 50px);
 
             .choose_card_para {
-                font-size:clamp(14px , 4vw ,  26px);
+                font-size: clamp(14px, 2vw, 26px);
                 font-weight: 500;
-                margin-bottom: 15px;
+                margin-bottom: clamp(10px, 1vw, 15px);
             }
 
             .choose_card_para_two {
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
                 font-weight: 500;
-                margin-bottom: 50px;
+                margin-bottom: clamp(20px, 2vw, 50px);
                 color: #71726f;
                 width: clamp(150px, 20vw, 300px);
             }
 
             .btn {
-                padding: 15px 25px;
+                padding: clamp(10px, 1vw, 15px) clamp(15px, 2vw, 25px);
                 border: none;
                 border-radius: 25px;
                 background-color: black;
                 color: white;
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
             }
 
             .choose_card_img {
                 position: relative;
-                width: 300px;
-                height: 550px;
+                width: clamp(200px, 30vw, 300px);
+                height: clamp(200px, 40vw, 550px);
                 top: 10px;
 
                 img {
@@ -93,9 +94,9 @@
         }
 
         .choose_card_two {
-            width: 748px;
+            width: clamp(300px, 80vw, 745px);
             padding: 20px;
-            height: 280px;
+            height: clamp(200px, 20vw, 260px);
             display: flex;
             align-items: center;
             gap: 50px;
@@ -104,13 +105,13 @@
             background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #c7e8fa);
 
             .choose_card_para {
-                font-size: 26px;
+                font-size: clamp(14px, 2vw, 26px);
                 font-weight: 500;
                 margin-bottom: 20px;
             }
 
             .choose_card_para_two {
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
                 color: #71726f;
                 font-weight: 500;
 
@@ -134,8 +135,8 @@
         .choose_card_three {
             display: flex;
             align-items: center;
-            width: 748px;
-            height: 260px;
+            width: clamp(300px, 80vw, 745px);
+            height: clamp(200px, 35vw, 260px);
             padding: 20px;
             padding-right: 300px;
             margin-top: 30px;
@@ -145,23 +146,24 @@
             background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #f6e2c1);
 
             .choose_card_para {
-                font-size: 26px;
+                font-size: clamp(14px, 2vw, 26px);
                 font-weight: 500;
                 margin-bottom: 20px;
             }
 
             .choose_card_para_two {
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
                 font-weight: 500;
                 color: #71726f;
+                width: 200px;
             }
 
             .choose_card_watchimg {
                 position: absolute;
                 top: -20px;
-                right: 20px;
-                width: 310px;
-                height: 310px;
+                right: clamp(-20px, 1vw, 20px);
+                width: clamp(200px, 40vw, 310px);
+                height: clamp(240px, 40vw, 310px);
             }
         }
 
@@ -171,13 +173,14 @@
         display: flex;
         gap: 30px;
         justify-content: center;
+        align-items: center;
         margin-top: 20px;
         margin-left: 45px;
 
         .card_second_row {
             overflow: hidden;
-            width: 745px;
-            height: 340px;
+            width: clamp(300px, 80vw, 745px);
+            height: clamp(270px, 20vw, 340px);
             border-radius: 25px;
             padding: 20px;
             padding-left: 30px;
@@ -187,7 +190,7 @@
             background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #e2d3fa);
 
             .second_card_para {
-                font-size: 26px;
+                font-size: clamp(14px, 2vw, 26px);
                 margin-top: 15px;
                 font-weight: 500;
                 margin-bottom: 15px;
@@ -197,11 +200,11 @@
                 color: #71726f;
                 font-weight: 500;
                 margin-bottom: 30px;
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
             }
 
             .second_card_inner_card {
-                width: 350px;
+                width: clamp(250px, 20vw, 350px);
                 position: absolute;
                 left: 50%;
                 transform: translate(-50%, 5%);
@@ -212,7 +215,7 @@
 
                 .second_card_parasub {
                     font-weight: 500;
-                    font-size: 20px;
+                    font-size: clamp(14px, 2vw, 20px);
                     color: #71726f;
                     margin-bottom: 10px;
                 }
@@ -225,8 +228,8 @@
         }
 
         .card_second_row_two {
-            width: 745px;
-            height: 340px;
+            width: clamp(300px, 80vw, 745px);
+            height: clamp(270px, 20vw, 340px);
             border-radius: 25px;
             padding: 20px;
             padding-left: 30px;
@@ -236,7 +239,7 @@
             background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 0%, #fedbd7);
 
             .second_card_para {
-                font-size: 26px;
+                font-size: clamp(14px, 2vw, 26px);
                 margin-top: 15px;
                 font-weight: 500;
                 margin-bottom: 15px;
@@ -246,12 +249,12 @@
                 color: #71726f;
                 font-weight: 500;
                 margin-bottom: 20px;
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
                 line-height: 24px;
             }
 
             .second_card_inner_card {
-                width: 350px;
+                width: clamp(250px, 20vw, 350px);
                 margin-bottom: 20px;
                 position: absolute;
                 left: 50%;
@@ -275,6 +278,16 @@
             }
         }
     }
+}
+
+@media only screen and (max-width:1440px) {
+    .choose_wrapper {
+        .second_card {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 }
 
 @media only screen and (max-width:432px) {
@@ -325,7 +338,7 @@
                 align-items: center;
                 padding: 5px 10px;
                 padding-top: 20px;
-                padding-left:25px ;
+                padding-left: 25px;
                 width: 350px;
                 height: 200px;
                 margin: 0 auto;
@@ -359,9 +372,10 @@
                     height: 200PX;
                     left: -20px;
                     top: 0px;
+
                     img {
                         position: absolute;
-                        object-fit: contain;                            
+                        object-fit: contain;
                     }
                 }
 
@@ -370,7 +384,7 @@
             .choose_card_two {
                 width: 350px;
                 padding: 10px;
-                padding-left:25px ;
+                padding-left: 25px;
                 height: 200px;
                 display: flex;
                 align-items: center;
@@ -416,7 +430,8 @@
                 height: 160px;
                 padding: 20px;
                 position: relative;
-                padding-left:25px ;
+                padding-left: 25px;
+
                 .choose_card_para {
                     font-size: 14px;
                     margin-bottom: 5px;
