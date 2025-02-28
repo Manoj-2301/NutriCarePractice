@@ -4,8 +4,38 @@ import CustomButton from '../Component/Button'
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaApple } from "react-icons/fa";
 import './footerStyle.scss'
+import LINK from "next/link"
 
 const page = () => {
+    const footerItems = [
+        { link: "About Us",
+            href:"/About"
+         },
+        { link: "Our Services", 
+            href:"/service"
+        },
+        { link: "Blog & Health Tips" ,
+            href:"/blog"
+        },
+        { link: "Contact Us",
+            href:"/contact"
+         },
+        { link: "FAQs", 
+            href:"/FAQ"
+        },
+        { link: "Privacy policy",
+            href:"privacy"
+         },
+        { link: "Terms & conditions", 
+            href:"Terms"
+        },
+    ];
+    const footerIcons = [
+        { icons: <i className="fi fi-brands-facebook"></i> },
+        { icons: <i className="fi fi-brands-instagram"></i> },
+        { icons: <i className="fi fi-brands-twitter-alt"></i> },
+        { icons: <i className="fi fi-brands-linkedin"></i> }
+    ]
     return (
         <div className='footer' >
             <div className='footer_container' >
@@ -60,21 +90,16 @@ const page = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='footer_list' >
-                    <p>About Us</p>
-                    <p>Our Services</p>
-                    <p>Blog & Health Tips</p>
-                    <p>Contact Us</p>
-                    <p>FAQs</p>
-                    <p>Privacy policy</p>
-                    <p>Terms & conditions</p>
+                <div className='footer_list'>
+                    {footerItems.map((item, index) => (
+                        <LINK href={item.href} key={index}>{item.link}</LINK>
+                    ))}
                 </div>
                 <div className='footer_end'>
                     <div className='footer_icon'>
-                        <i className="fi fi-brands-facebook"></i>
-                        <i className="fi fi-brands-instagram"></i>
-                        <i className="fi fi-brands-twitter-alt"></i>
-                        <i className="fi fi-brands-linkedin"></i>
+                        {footerIcons.map((items, index) => (
+                            <p key={index}>{items.icons}</p>
+                        ))}
                     </div>
                     <div className='footer_last_para'>
                         <p> &copy; 2025.All Rights Reserved By kiwari</p>

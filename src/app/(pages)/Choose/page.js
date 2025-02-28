@@ -19,22 +19,21 @@ const page = () => {
                 <p className='choose_main_subpara' data-aos="fade-up">Discover a holistic health management system designed for your lifestyle.Explore five key feature that <br />make staying healthy easier and smart</p>
             </div>
             <div>
-                <div >
-                    <div className="card">
-                        <Card
-                            title="Expert Advice Anytime"
-                            description="Get professional health advice through chat or video call. Connect with certified doctors for personalized guidance and care."
-                            imageSrc="/videocall.png"
-                            buttonText="Learn more"
-                            aosDirection="fade-up-right"
-                            style={{
-                                choose_card: "choose_card",
-                                choose_card_para: "choose_card_para",
-                                choose_card_para_two: "choose_card_para_two",
-                                choose_card_img: "choose_card_img"
-                            }}
-                        />
-                        <div>
+                <div className="card">
+                    <Card
+                        title="Expert Advice Anytime"
+                        description="Get professional health advice through chat or video call. Connect with certified doctors for personalized guidance and care."
+                        imageSrc="/videocall.png"
+                        buttonText="Learn more"
+                        aosDirection="fade-up-right"
+                        style={{
+                            choose_card: "choose_card",
+                            choose_card_para: "choose_card_para",
+                            choose_card_para_two: "choose_card_para_two",
+                            choose_card_img: "choose_card_img"
+                        }}
+                    />
+                    <div>
                         <Card
                             title="Insightful Health Summaries"
                             description="Access detailed report summarizing your activity trends, vital statistics, and personalized recommendations for better health."
@@ -46,7 +45,7 @@ const page = () => {
                                 choose_card_para_two: "choose_card_para_two",
                                 choose_card_img: "choose_card_img"
                             }}
-                        />  
+                        />
                         <Card
                             title="Track Your Vital Signs"
                             description="Seamlessly connect with your smartwatch to monitor heart rate, steps, sleep patterns, and more. Stay informed about your health at a glance."
@@ -57,12 +56,11 @@ const page = () => {
                                 choose_card_para: "choose_card_para",
                                 choose_card_para_two: "choose_card_para_two",
                                 choose_card_img: "choose_card_watchimg",
-                                img:"img"
+                                img: "img"
                             }}
-                        />  
-                        </div>
+                        />
                     </div>
-                </div>                
+                </div>
                 <div className='second_card'>
                     <div className='card_second_row' data-aos="fade-up-right">
                         <div>
