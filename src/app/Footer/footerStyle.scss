@@ -111,29 +111,34 @@
 
         .footer_list {
             display: flex;
-            gap: 50px;
+            flex-wrap: wrap;
+            gap: clamp(20px, 3vw, 50px);
             margin-top: 30px;
             margin-bottom: 30px;
-            font-size: 16px;
+            font-size: clamp(14px, 1vw, 16px);
             font-weight: 500;
             color: #1d1d1d;
+            padding: 0px 10px;
         }
 
         .footer_end {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
             margin-bottom: 30px;
             margin-top: 40px;
+            gap: 15px;
+            padding: 0px 10px;
 
             .footer_icon {
                 display: flex;
                 gap: 20px;
-                font-size: 20px;
+                font-size:clamp(16px , 2vw,  20px);
             }
 
             .footer_last_para {
-                font-size: 16px;
+                font-size: clamp(14px, 1vw, 16px);
                 font-weight: 500;
             }
         }

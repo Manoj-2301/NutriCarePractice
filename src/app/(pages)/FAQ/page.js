@@ -22,7 +22,7 @@ const page = () => {
             </div>
             <div className='question_para'>
                 <p className='question_para_main' data-aos="fade-up">What Our Customers Are Saying</p>
-                <p className='question_para_sub' data-aos="fade-up">Real Storeis,RealResults:Hear from those who've experienced the difference in their healthcare<br />Journey</p>
+                <p className='question_para_sub' data-aos="fade-up">Real Storeis, Real Results:Hear from those who've experienced the difference in their healthcare<br />Journey</p>
             </div>
             <div className='question_card'>
                 <div className='card_border' data-aos="fade-up">
@@ -36,7 +36,7 @@ const page = () => {
                         </div>
                     </div>
                     { isAnswerVisible &&(<div className='answer'>
-                        <p>Yes, you can! NutriCare allows you to track your health progress effortlessly.You can<br />monitor your daily nutrition,excercise,hydration,and even medication intake.Plus,you'll<br />get personalized insights and progress report to help you stay on track with your health <br />Goals.</p>
+                        <p>Yes, you can! NutriCare allows you to track your health progress effortlessly.You can monitor your daily nutrition,excercise,hydration,and even medication intake.Plus,you'll get personalized insights and progress report to help you stay on track with your health Goals.</p>
                     </div>)}
                 </div>
             </div>
